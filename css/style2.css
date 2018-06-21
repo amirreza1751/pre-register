@@ -1,0 +1,76 @@
+
+@media screen and (min-width: 200px) and (max-width: 650px) {
+    .st-holder{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 651px) and (max-width: 1200px) {
+    .st-holder{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1500px) {
+    .st-holder{
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1501px) and (max-width: 5000px) {
+    .st-holder{
+        width: 60%;
+    }
+}
+.back{
+    background-color: rgba( 255, 255,255 , 0.8 );
+}
+.back2{
+    background-color: rgba(231, 255, 231,0.8);
+}
+/*.header-background{*/
+    /*background-color: rgba(244, 67, 54, 0.3);*/
+/*}*/
+
+
+
+
+/*   tooltip for group number in login page (register)  */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 150px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}

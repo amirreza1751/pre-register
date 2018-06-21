@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: yekan;
+}
+@font-face{
+    font-family:'yekan';
+    src:url('../fonts/yekan.eot');
+    src:url('../fonts/yekan.eot#iefix') format('embedded-opentype'),
+    url('../fonts/yekan.woff') format('woff'),
+    url('../fonts/yekan.ttf') format('truetype'),
+    url('../fonts/yekan.svg#CartoGothicStdBook') format('svg');
+    font-weight:normal;
+    font-style:normal;
+}
+.form-holder{
+    width: 30%;
+    margin-left: 10%;
+    direction: rtl;
+    margin-top: 3%;
+    background:rgba(200, 200, 200, 0.3);
+}
+.op{
+    background:rgba(255, 255, 255, 0.6);
+}
+.tab-holder{
+    width: 50%;
+    text-align: right;
+}
+.margin-top-40{
+    margin-top: 40px;
+}
+.margin-top-20{
+    margin-top: 20px;
+}
+.padding-20{
+    padding: 20px 20px 20px 20px!important;
+    /*padding-bottom: 30px!important;*/
+}
+.bottom{
+    position: fixed;
+    bottom: 0px;
+    /*height: 128px;*/
+    /*line-height: 128px;*/
+}
+.footer{
+    width: 100%;
+}
+.ul-none{
+    list-style-type: none;
+}
+
+.bg{
+    background-image: url(../pictures/login-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+@media screen and (max-width: 1300px)  {
+    .form-holder{
+        width: 35%;
+    }
+    .list-holder{
+        width: 50% ;
+    }
+}
+
+@media screen and (max-width: 900px)  {
+    .form-holder{
+        width: 40%;
+        margin: auto;
+        margin-top: 8%;
+    }
+
+}
+
+@media screen and (max-width: 900px)  {
+    .form-holder{
+        width: 50%;
+    }
+    .list-holder{
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 700px)  {
+    .form-holder{
+        width: 70%;
+    }
+    .list-holder{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px)  {
+    .form-holder{
+        width: 80%;
+    }
+    .list-holder{
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 500px)  {
+    .form-holder{
+        width: 90%;
+    }
+    .list-holder{
+        width: 100%;
+    }
+    .bg{
+        background-image: url(../pictures/login-bg-2.jpg);
+    }
+}
+
+
+@media screen and (max-width: 400px)  {
+    .form-holder{
+        width: 100%;
+    }
+    .list-holder{
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1301px)  {
+    .list-holder{
+        width: 60%;
+    }
+
+}
+.margin-top-10{
+    margin-top: 10px;
+}
+
+
+
+/*scroll bar*/
+.style-1::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+.style-1::-webkit-scrollbar
+{
+    width: 7px;
+    height: 7px;
+    background-color: #f5f5f5;
+}
+.style-1::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0px 0 20px rgba(0,0,0,.3);
+    background-color: #f5f5f5;
+}
+
+
+/*scroll bar*/
+
+
+
+.dir{
+    direction: rtl;
+    /*background-color: #3a3a3a;*/
+}
+#editor {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.pointer:hover{
+    cursor: pointer!important;
+}
+h2{
+    font-family: yekan;
+}

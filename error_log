@@ -1,0 +1,56 @@
+[18-Mar-2017 15:08:31 Asia/Tehran] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/amirtir/public_html/pre-register/login-check.php on line 27
+[18-Mar-2017 15:11:00 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/amirtir/public_html/pre-register/login-check.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/amirtir/public_html/pre-register/login-check.php on line 27
+[18-Mar-2017 15:15:54 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/amirtir/public_html/pre-register/login-check.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/amirtir/public_html/pre-register/login-check.php on line 27
+[18-Mar-2017 15:30:03 Asia/Tehran] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/amirtir/public_html/pre-register/login-check.php on line 27
+[18-Mar-2017 16:18:29 Asia/Tehran] PHP Warning:  Wrong parameter count for mysqli_stmt::bind_result() in /home/amirtir/public_html/pre-register/login-check.php on line 27
+[18-Mar-2017 16:18:29 Asia/Tehran] PHP Fatal error:  Call to a member function fetch_assoc() on null in /home/amirtir/public_html/pre-register/login-check.php on line 28
+[18-Mar-2017 16:22:17 Asia/Tehran] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/amirtir/public_html/pre-register/login-check.php on line 27
+[18-Mar-2017 16:22:17 Asia/Tehran] PHP Fatal error:  Call to undefined method mysqli_stmt::fetch_assoc() in /home/amirtir/public_html/pre-register/login-check.php on line 28
+[18-Mar-2017 16:22:52 Asia/Tehran] PHP Fatal error:  Call to undefined method mysqli_stmt::fetch_assoc() in /home/amirtir/public_html/pre-register/login-check.php on line 28
+[18-Mar-2017 16:28:00 Asia/Tehran] PHP Fatal error:  Call to a member function fetch() on boolean in /home/amirtir/public_html/pre-register/register-check.php on line 25
+[18-Mar-2017 16:29:06 Asia/Tehran] PHP Fatal error:  Call to undefined method mysqli_stmt::get_result() in /home/amirtir/public_html/pre-register/forgot-pass2.php on line 15
+[18-Mar-2017 17:11:57 Asia/Tehran] PHP Warning:  Invalid argument supplied for foreach() in /home/amirtir/public_html/pre-register/accept-student.php on line 16
+[18-Mar-2017 17:11:57 Asia/Tehran] PHP Warning:  Invalid argument supplied for foreach() in /home/amirtir/public_html/pre-register/accept-student.php on line 27
+[18-Mar-2017 17:11:57 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amirtir/public_html/pre-register/accept-student.php:7) in /home/amirtir/public_html/pre-register/accept-student.php on line 33
+[18-Mar-2017 17:12:04 Asia/Tehran] PHP Warning:  Invalid argument supplied for foreach() in /home/amirtir/public_html/pre-register/accept-student.php on line 27
+[18-Mar-2017 17:12:04 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amirtir/public_html/pre-register/accept-student.php:7) in /home/amirtir/public_html/pre-register/accept-student.php on line 33
+[18-Mar-2017 17:47:16 Asia/Tehran] PHP Warning:  Invalid argument supplied for foreach() in /home/amirtir/public_html/pre-register/report.php on line 217
+[18-Mar-2017 17:47:16 Asia/Tehran] PHP Warning:  Invalid argument supplied for foreach() in /home/amirtir/public_html/pre-register/report.php on line 243
+[18-Mar-2017 17:47:16 Asia/Tehran] PHP Warning:  Invalid argument supplied for foreach() in /home/amirtir/public_html/pre-register/report.php on line 254
+[18-Mar-2017 17:47:16 Asia/Tehran] PHP Warning:  Invalid argument supplied for foreach() in /home/amirtir/public_html/pre-register/report.php on line 265
+[18-Mar-2017 17:47:20 Asia/Tehran] PHP Warning:  Invalid argument supplied for foreach() in /home/amirtir/public_html/pre-register/report.php on line 217
+[18-Mar-2017 17:47:20 Asia/Tehran] PHP Warning:  Invalid argument supplied for foreach() in /home/amirtir/public_html/pre-register/report.php on line 243
+[18-Mar-2017 17:47:20 Asia/Tehran] PHP Warning:  Invalid argument supplied for foreach() in /home/amirtir/public_html/pre-register/report.php on line 254
+[18-Mar-2017 17:47:20 Asia/Tehran] PHP Warning:  Invalid argument supplied for foreach() in /home/amirtir/public_html/pre-register/report.php on line 265
+[18-Mar-2017 17:47:24 Asia/Tehran] PHP Warning:  Invalid argument supplied for foreach() in /home/amirtir/public_html/pre-register/report.php on line 217
+[18-Mar-2017 17:47:24 Asia/Tehran] PHP Warning:  Invalid argument supplied for foreach() in /home/amirtir/public_html/pre-register/report.php on line 243
+[18-Mar-2017 17:47:24 Asia/Tehran] PHP Warning:  Invalid argument supplied for foreach() in /home/amirtir/public_html/pre-register/report.php on line 254
+[18-Mar-2017 17:47:24 Asia/Tehran] PHP Warning:  Invalid argument supplied for foreach() in /home/amirtir/public_html/pre-register/report.php on line 265
+[19-Mar-2017 16:52:10 Asia/Tehran] PHP Warning:  Invalid argument supplied for foreach() in /home/amirtir/public_html/pre-register/accept-student.php on line 27
+[19-Mar-2017 16:52:10 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amirtir/public_html/pre-register/accept-student.php:7) in /home/amirtir/public_html/pre-register/accept-student.php on line 33
+[19-Mar-2017 16:52:59 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/amirtir/public_html/pre-register/db.php on line 74
+[19-Mar-2017 16:52:59 Asia/Tehran] PHP Warning:  mysqli_error(): Couldn't fetch mysqli in /home/amirtir/public_html/pre-register/db.php on line 76
+[19-Mar-2017 16:54:43 Asia/Tehran] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/amirtir/public_html/pre-register/query-check.php:2) in /home/amirtir/public_html/pre-register/main.php on line 2
+[19-Mar-2017 16:55:49 Asia/Tehran] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/amirtir/public_html/pre-register/query-check.php:2) in /home/amirtir/public_html/pre-register/main.php on line 2
+[19-Mar-2017 16:58:26 Asia/Tehran] PHP Warning:  mysqli::query(): Empty query in /home/amirtir/public_html/pre-register/db.php on line 74
+[19-Mar-2017 16:59:19 Asia/Tehran] PHP Warning:  Invalid argument supplied for foreach() in /home/amirtir/public_html/pre-register/accept-student.php on line 27
+[19-Mar-2017 16:59:19 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amirtir/public_html/pre-register/accept-student.php:7) in /home/amirtir/public_html/pre-register/accept-student.php on line 33
+[19-Mar-2017 16:59:37 Asia/Tehran] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/amirtir/public_html/pre-register/db.php on line 74
+[19-Mar-2017 16:59:37 Asia/Tehran] PHP Warning:  mysqli_error(): Couldn't fetch mysqli in /home/amirtir/public_html/pre-register/db.php on line 76
+[19-Mar-2017 17:38:09 Asia/Tehran] PHP Warning:  Invalid argument supplied for foreach() in /home/amirtir/public_html/pre-register/query-check.php on line 34
+[19-Mar-2017 17:38:09 Asia/Tehran] PHP Warning:  Invalid argument supplied for foreach() in /home/amirtir/public_html/pre-register/query-check.php on line 47
+[19-Mar-2017 17:58:33 Asia/Tehran] PHP Warning:  Invalid argument supplied for foreach() in /home/amirtir/public_html/pre-register/report.php on line 217
+[19-Mar-2017 17:58:33 Asia/Tehran] PHP Warning:  Invalid argument supplied for foreach() in /home/amirtir/public_html/pre-register/report.php on line 243
+[19-Mar-2017 17:58:33 Asia/Tehran] PHP Warning:  Invalid argument supplied for foreach() in /home/amirtir/public_html/pre-register/report.php on line 254
+[19-Mar-2017 17:58:33 Asia/Tehran] PHP Warning:  Invalid argument supplied for foreach() in /home/amirtir/public_html/pre-register/report.php on line 265
+[19-Mar-2017 18:30:39 Asia/Tehran] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/amirtir/public_html/pre-register/student-list.php on line 29
+[19-Mar-2017 18:43:30 Asia/Tehran] PHP Warning:  Invalid argument supplied for foreach() in /home/amirtir/public_html/pre-register/accept-student.php on line 27
+[19-Mar-2017 18:43:30 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amirtir/public_html/pre-register/accept-student.php:7) in /home/amirtir/public_html/pre-register/accept-student.php on line 33
+[19-Mar-2017 18:45:15 Asia/Tehran] PHP Warning:  Invalid argument supplied for foreach() in /home/amirtir/public_html/pre-register/accept-student.php on line 27
+[19-Mar-2017 18:45:15 Asia/Tehran] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/amirtir/public_html/pre-register/accept-student.php:7) in /home/amirtir/public_html/pre-register/accept-student.php on line 33
